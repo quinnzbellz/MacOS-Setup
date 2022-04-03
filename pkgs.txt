@@ -1,0 +1,16 @@
+ca-certificates
+docker
+gettext
+libidn2
+libunistring
+mas
+openssl@1.1
+wget
+audacity
+discord
+firefox
+macfuse
+mullvadvpn
+veracrypt
+vscodium
+neofetch
