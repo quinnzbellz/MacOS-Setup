@@ -18,3 +18,4 @@ veracrypt
 vscodium
 iina
 transmission
+rectangle
