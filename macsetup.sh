@@ -6,7 +6,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 source ~/.zprofile
 sleep 5
-cat pkgs.txt | xargs brew install
+curl https://raw.githubusercontent.com/quinnzbellz/MacOS-Setup/main/pkgs.txt | xargs brew install
 defaults write com.apple.dock launchanim -bool false
 defaults write com.apple.dock expose-animation-duration -float 0.1
 defaults write com.apple.dock autohide-delay -float 0
